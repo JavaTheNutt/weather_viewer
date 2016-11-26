@@ -1,0 +1,22 @@
+{
+  "name": "weather_viewer",
+  "description": "A weather viewer app built for FCC",
+  "main": "index.js",
+  "authors": [
+    "Joe Wemyss"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JavaTheNutt/weather_viewer.git#readme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "weather_viewer",
+  "version": "1.0.0",
+  "description": "A weather viewer app built for FCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaTheNutt/weather_viewer.git"
+  },
+  "author": "Joe Wemyss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaTheNutt/weather_viewer/issues"
+  },
+  "homepage": "https://github.com/JavaTheNutt/weather_viewer#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "gulp": "^3.9.1"
+  }
+}
