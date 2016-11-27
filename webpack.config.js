@@ -1,4 +1,5 @@
 var path = require('path');
+//fixme: no output from operation
 module.exports = {
     entry: "./src/app/js/index.js",
     output: {
