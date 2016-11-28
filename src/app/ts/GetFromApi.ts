@@ -7,6 +7,7 @@
  */
 export class GetFromApi {
 
+	private url : string = 'http:my.example.org';
 
 	constructor(private testString: string) {
 

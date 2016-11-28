@@ -4,7 +4,8 @@
   "description": "A weather viewer app built for FCC",
   "main": "src/ts/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/JavaTheNutt/weather_viewer#readme",
   "devDependencies": {
     "@types/jquery": "^2.0.34",
+    "@types/node": "0.0.0",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.18.0",
@@ -32,6 +34,8 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "requirejs": "^2.3.2"
   }
 }

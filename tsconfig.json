@@ -4,7 +4,14 @@
     "target": "es6",
     "sourceMap": true,
     "removeComments": true,
-    "outDir": "src/app/js"
+    "outDir": "src/app/js",
+    "types":[
+      "jquery",
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "exclude": [
     "node_modules",
