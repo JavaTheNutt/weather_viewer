@@ -1,4 +1,6 @@
 import {GetFromApi} from "./GetFromApi";
+//import getFromApi = require('./GetFromApi');
+//import $ = require('jquery');
 
 /**
  * Created by joewe on 26/11/2016.
